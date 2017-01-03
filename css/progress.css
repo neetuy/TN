@@ -1,0 +1,149 @@
+body{
+background-color:white;
+  }
+.navbar-inverse{
+	background-color: #a142f4 !important;
+  }
+.navbar-header{
+	background-color: #000000;
+  width: 16.7%;
+  padding-top:10px; 
+  padding-bottom:10px;
+  }
+.table {
+width: 100%;
+max-width: 100%;
+margin-bottom:2%;
+margin-left: 1%;
+  }
+.thead{
+padding:20% !important;
+  }
+.side-nav{
+background-color: #3a536b !important;
+padding-top: 3%;
+  }
+  .side-nav>li{
+  padding-top: 10%;
+  }
+.progress{
+padding:0px;
+border-radius: 0px;
+margin-top:20%;
+margin-bottom:20%;
+
+  }
+.progress-bar{
+background-color: green;
+  }
+table>tbody>tr>td{
+padding:0% !important
+  } 
+.progress-bar-color{
+background-color: black;
+  }
+.td-text-align{
+text-align:center;
+padding-top:25%;
+padding-bottom:25%; 
+  }
+.tr-color{
+background-color:#eeeeee; 
+  }
+.td-width{
+width:20%;
+  }
+.span-align-center{
+margin-top:10%; 
+margin-left:25%;
+font-size:14px;	
+  }
+.span-align-right{
+margin-left:25%;
+margin-right:1%;
+  }
+.span-text-font{
+font-size:20px;
+color:#7a6f61;
+  }
+.col-boxing{
+padding-top:5%;
+padding-bottom:2%;
+background-color:white;
+  }
+.top-nav>li>a{
+font-size: 16px;
+color:#f5f5f5;
+padding-right: 50px;
+border-right: 1px solid white;
+font-family: Arial, Helvetica, sans-serif;
+  }
+  .top-nav>li {
+    display: inline-block;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.fa>p>a>i {
+color:#42cef4;
+  }
+.top-nav>li>p>a{
+font-size: 18px;
+color:#42cef4;
+margin-right:30px;
+padding:10px;
+  }
+.p1 {
+padding-bottom: 0px;    
+padding-top: 10%;
+  }
+.navbar-inverse .navbar-brand {
+color: #f5f5f5;
+  }
+.navbar-brand {
+padding-top: 5%;
+padding-left: 20%;
+font-size: 18px;
+  }
+.fa-large{
+margin-left: 20px;
+transform:scale(2,2);
+padding-right:10px; 
+  }
+.side-nav>li>a{
+font-size: 16px;
+color:#f5f5f5;
+font-family: Arial, Helvetica, sans-serif;
+  }
+.div-align{
+font-size:18px;
+padding-left:1%;
+background-color: white;
+  }
+.fa-small-color{
+  padding-right:10px;
+color:#237020;
+transform:scale(1.5,1.5);
+  }
+  .fa-small{
+  padding-right:10px;
+  transform:scale(1.5,1.5);
+  }
+.navbar-right {
+float: right !important;
+margin-right:2%;
+  }
+  .th-text-align{
+    text-align: center;
+    background-color:#dbdcff;
+  }
+  #page-wrapper {
+    width: 100%;
+    padding: 0;
+    background-color: #eee;
+}
+.panel-color{
+  background-color:#eeeeee;
+  margin-top: 2%;
+
+}
