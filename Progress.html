@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title></title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/sb-admin.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="css/plugins/morris.css" rel="stylesheet">
+    <!-- Custom Alignments -->
+     <link href="css/progress.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- center the page in the middle of the site .-->
+  <div id="wrapper">
+    <!--navigate the link-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <!--header of top navigationbar-->
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">TRANSLATION MANAGER</a>
+      </div>
+      <!--unordered list of links-->
+      <ul class="nav navbar-right top-nav ">
+  	    <li><a href="#">Sync</a></li>
+  	    <li><a href="#">Reports</a></li>
+  	    <li><a href="#">Setting</a></li>
+  	    <li><a href="#">Package Manager</a></li> 
+  	    <li class="li-text-align"><p class="p1"><a href="#">Online<i class="fa fa-large fa-user-circle-o"></i></a></p></li>
+      </ul>
+    </nav>
+    <!--collapse navigation bar with side menubar or side navigation bar-->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <!--unordered list of links-->
+        <ul class="nav navbar-nav side-nav">
+          <li><a href="index.html"><i class="fa fa-large fa-user-plus"></i>ASSIGNMENTS </a></li>
+          <li> <a href="charts.html"><i class="fa fa-large fa-bar-chart"></i>PROGRESS</a></li>
+          <li><a href="tables.html"><i class="fa fa-large fa-users"></i>TEAM</a></li>
+        </ul>
+      </div>
+  <div id="page-wrapper">
+  <!--Turn any fixed-width grid layout into a full-width layout-->
+
+    <div class="container">
+    <div class="panel">
+    <div class="panel-body">
+    <!-- fisrt row of page -->
+      <div class="row">
+      <!--column of row-->
+        <div class="col-boxing col-lg-12">
+          <span class="span-text-font">View Project Progress</span>
+          <span class="span-align-center">Language:English</span>       
+          <span class="span-align-right"><i class="fa fa-small fa-circle"></i>Assigned</span>
+          <span class="span-push-right"><i class="fa-small-color fa fa-circle"></i>Completed</span>
+        </div>
+        <!--Second row of page-->
+        <div class="row">
+        <!--column of row--> 
+          <div class="col-lg-12">
+            <div class="div-align">Term-1</div>
+            <!--Adjust changes in table length -->
+              <div class="table-responsive">
+              <!--Giving table border-->
+                <table class="table table-bordered table-hover">
+                <!--Table head-->
+                  <thead>
+                  <!--table row-->
+                    <tr class="tr-color">
+                      <th class="th-text-align">Unit</th>
+                      <th class="th-text-align">Stage1</th>
+                      <th class="th-text-align">Stage2</th>
+                      <th class="th-text-align">Stage3</th>
+                    </tr>
+                  </thead>
+                  <!--table body-->
+                  <tbody>
+                  <!--table-row-->
+                    <tr>
+                    <!--table-data-->
+                      <td class="td-width">
+                      <!--data of unit-->
+                      	<p class="td-text-align">genesis<span class="badge">50</span></p>	
+											</td>
+                      <!--table-data-->
+                      <td>
+                      <!--progressbar-->
+                      	<div class="progress progress-bar-color">
+													<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+														<span class="sr-only">70% Complete</span>
+													</div>
+												</div>
+                      </td>
+                      <td>
+                      <!--progressbar-->
+                    	  <div class="progress">
+													<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+														<span class="sr-only">70% Complete</span>
+													</div>
+												</div>
+                      </td>
+                      <!--table-data-->
+                      <td>
+                      	<div class="progress">
+													<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+														<span class="sr-only">70% Complete</span>
+													</div>
+												</div>
+                      </td>
+                    </tr>
+                    <!--table-row-->
+                    <tr>
+                    <!--table-data-->
+                      <td>
+                      <!--data of unit-->
+                      		<p class="td-text-align">exodus<span class="badge">50</span></p>	
+                      </td>
+                      <td>
+                      <!--progressbar-->
+                      	<div class="progress">
+  												<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+  													<span class="sr-only">70% Complete</span>
+  												</div>
+  											</div>
+                      </td>
+                      <!--table-data-->
+                      <td>
+                      <!--progressbar-->
+                      	<div class="progress">
+  												<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+  													<span class="sr-only">70% Complete</span>
+  												</div>
+  											</div>
+                      </td>
+                      <!--table-data-->
+                      <td>
+                      <!--progressbar-->
+                      	<div class="progress">
+  												<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+  													<span class="sr-only">70% Complete</span>
+  												</div>
+  											</div>
+                      </td>
+                    </tr> 
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </div>  
+  </div>
+</body>
+</html>
