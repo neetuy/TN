@@ -2,7 +2,7 @@ body{
 background-color:white;
   }
 .navbar-inverse{
-	background-color: #a142f4 !important;
+	background-color: #845cbc !important;
   }
 .navbar-header{
 	background-color: #000000;
@@ -33,6 +33,13 @@ margin-top:20%;
 margin-bottom:20%;
 
   }
+  .row{
+    margin-left: 0%;
+    margin-right: 0%;
+    }
+  .row-margin{
+    margin-bottom: 2%
+  }
 .progress-bar{
 background-color: green;
   }
@@ -40,7 +47,6 @@ table>tbody>tr>td{
 padding:0% !important
   } 
 .progress-bar-color{
-background-color: black;
   }
 .td-text-align{
 text-align:center;
@@ -55,7 +61,7 @@ width:20%;
   }
 .span-align-center{
 margin-top:10%; 
-margin-left:25%;
+margin-left:20%;
 font-size:14px;	
   }
 .span-align-right{
@@ -65,11 +71,15 @@ margin-right:1%;
 .span-text-font{
 font-size:20px;
 color:#7a6f61;
+padding-left: 3%;
   }
-.col-boxing{
+.row-boxing{
 padding-top:5%;
 padding-bottom:2%;
 background-color:white;
+margin-top: 5%;
+margin-left:1%;
+margin-right: 1%;
   }
 .top-nav>li>a{
 font-size: 16px;
@@ -119,6 +129,7 @@ font-family: Arial, Helvetica, sans-serif;
 font-size:18px;
 padding-left:1%;
 background-color: white;
+margin-bottom:2%;
   }
 .fa-small-color{
   padding-right:10px;
@@ -146,4 +157,47 @@ margin-right:2%;
   background-color:#eeeeee;
   margin-top: 2%;
 
+}
+.navbar{
+  margin-bottom: 0% !important;
+}
+.container-fluid{
+  padding:2%;
+}
+.team-align{
+  margin-left: 2%;
+}
+.col-unit{
+  width:200px;
+  height:50px;
+  text-align: center;
+  padding: 2%;
+  font-size: 16px;
+}
+.col-stage{
+  width:285.5px;
+ height:50px;
+  text-align: center;
+  padding:2%;
+  font-size: 16px;
+}
+.row-head{
+  background-color:#afb4bc;
+}
+.row-color{
+  background-color: #f2f4f7;
+}
+.col-2-data{
+  width:285.5px;
+  height:150px;
+  border-right: 1px solid #afb4bc;
+}
+.col-1-data{
+  width:200px;
+  height:150px;
+  border-right: 1px solid #afb4bc;
+}
+.col-lg-3{
+  padding-left: 0px;
+  padding-right: 0px;
 }
