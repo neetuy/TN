@@ -2373,5 +2373,9 @@ if (typeof jQuery === 'undefined') {
       Plugin.call($spy, data)
     })
   })
-
+$(document).ready(function() {
+  $('[data-toggle=offcanvas]').click(function() {
+    $('.row-offcanvas').toggleClass('active');
+  });
+});
 }(jQuery);
