@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title></title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/sb-admin.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="css/plugins/morris.css" rel="stylesheet">
+    <!-- Custom Alignments -->
+     <link href="css/progress.css" rel="stylesheet">
+      <!--<link href="css/bootstrap-rtl.css" rel="stylesheet">-->
+    
+</head>
+<body>
+    <!-- center the page in the middle of the site .-->
+  <div id="wrapper">
+    <!--navigate the link-->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        </button>
+        <a class="navbar-brand" href="#">TRANSLATION MANAGER</a>
+      </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav  navbar-right top-nav">
+  	    <li><a href="#">Sync</a></li>
+  	    <li><a href="#">Reports</a></li>
+  	    <li><a href="#">Setting</a></li>
+  	    <li><a href="#">Package Manager</a></li> 
+  	    <li class="li-text-align"><p class="p1"><a href="#">Online<i class="fa fa-large fa-user-circle-o"></i></a></p></li>
+      </ul>    
+    </div><!--/.nav-collapse -->
+    </div><!--/.navbar -->
+  <div class="row-offcanvas row-offcanvas-left">
+    <div id="sidebar" class="sidebar-offcanvas">
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <!--unordered list of links-->
+        <ul class="nav navbar-nav side-nav">
+          <li><a href="index.html"><i class="fa fa-large fa-user-plus"></i>ASSIGNMENTS </a></li>
+          <li> <a href="charts.html"><i class="fa fa-large fa-bar-chart"></i>PROGRESS</a></li>
+          <li><a href="tables.html"><i class="fa fa-large fa-users"></i>TEAM</a></li>
+        </ul>
+      </div>  
+    </div>
+  </div>
+
+  <div id="page-wrapper">
+  <!--Turn any fixed-width grid layout into a full-width layout-->
+    <div class="container-fluid">
+    <!-- fisrt row of page -->
+      <div class="row row-boxing">
+      <!--column of row-->
+        <div class="row row-margin">
+          <div class="col col-lg-4 col-text-font">View Project Progress</div>
+          <div class="col col-lg-2 col-align-center">Language:English</div>      
+          <div class="col col-lg-2 col-align-right"><i class="fa fa-small fa-circle"></i>Assigned</div>
+          <div class="col col-lg-2 col-align-right"><i class="fa-small-color fa fa-circle"></i>Completed</div>
+        </div>
+      <div id="main">
+      	<div class="row team-align">
+          <div class="col-lg-12">
+            <div class="div-align">Team-1</div>
+          </div>
+        </div>
+  			<div class="row">
+  			<div class="table-responsive">
+  		      	<table class="table table-bordered table-hover">
+  		          <thead>
+  		              <tr class="tr-color">
+  		                  <th>Unit</th>
+  		                  <th>Stage1</th>
+  		                  <th>Stage2</th>
+  		                  <th>Stage3</th>
+  		              </tr>
+  		          </thead>
+  		          <tbody>
+  		              <tr>
+  		                <td class="td-width">
+  		                  	<p class="td-text-align">genesis<span class="badge">50</span></p>	
+  						</td>
+  		                <td>
+  		                  	<div class="progress">
+  							<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+  							<span class="sr-only">70% Complete</span>
+  							</div>
+  							</div>
+  		                </td>
+  		                <td>
+  	                	  	<div class="progress">
+  							<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+  									<span class="sr-only">70% Complete</span>
+  							</div>
+  							</div>
+  						</td>
+  	                  	<td>
+  		                  	<div class="progress">
+  								<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+  										<span class="sr-only">70% Complete</span>
+  							</div>
+  							</div>
+  		                </td>
+  		              </tr>
+  		              <tr>
+  		                  	<td>
+  		                  		<p class="td-text-align">exodus<span class="badge">50</span></p>	
+  		                  	</td>
+  		                  	<td>
+  		                  		<div class="progress">
+  									<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+  										<span class="sr-only">70% Complete</span>
+  									</div>
+  								</div>
+  		                  	</td>
+  		                  	<td>
+  		                  		<div class="progress">
+  									<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+  										<span class="sr-only">70% Complete</span>
+  									</div>
+  								</div>
+  							</td>
+  		                  	<td>
+  		                  		<div class="progress">
+  									<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+  										<span class="sr-only">70% Complete</span>
+  									</div>
+  								</div>
+  		                  	</td>
+  		              	</tr>
+  		          	</tbody>
+  		      	</table>
+		 	      </div>
+          </div>
+  	    </div>
+  	  </div>   
+    </div>
+  </div>
+  </div>
+</body>
+</html>
