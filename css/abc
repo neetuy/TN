@@ -1,0 +1,231 @@
+
+ 1 file changed, 169 insertions(+)
+ create mode 100644 Progress.html
+
+shivam@shivam-lapppppy MINGW64 ~/Desktop/Task/TM (NEW_BRANCH_NAME)
+$ git status
+On branch NEW_BRANCH_NAME
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   css/sb-admin.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        css/progress.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+shivam@shivam-lapppppy MINGW64 ~/Desktop/Task/TM (NEW_BRANCH_NAME)
+$ git add css/progress.css
+
+shivam@shivam-lapppppy MINGW64 ~/Desktop/Task/TM (NEW_BRANCH_NAME)
+$ git commit -m "css added"
+[NEW_BRANCH_NAME ad3f367] css added
+ Committer: shiva yadav <shiva yadav>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 149 insertions(+)
+ create mode 100644 css/progress.css
+
+shivam@shivam-lapppppy MINGW64 ~/Desktop/Task/TM (NEW_BRANCH_NAME)
+$ git status
+On branch NEW_BRANCH_NAME
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   css/sb-admin.css
+
+
+ 1 file changed, 169 insertions(+)
+ create mode 100644 Progress.html
+
+shivam@shivam-lapppppy MINGW64 ~/Desktop/Task/TM (NEW_BRANCH_NAME)
+$ git status
+On branch NEW_BRANCH_NAME
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   css/sb-admin.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        css/progress.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+shivam@shivam-lapppppy MINGW64 ~/Desktop/Task/TM (NEW_BRANCH_NAME)
+$ git add css/progress.css
+
+shivam@shivam-lapppppy MINGW64 ~/Desktop/Task/TM (NEW_BRANCH_NAME)
+$ git commit -m "css added"
+[NEW_BRANCH_NAME ad3f367] css added
+ Committer: shiva yadav <shiva yadav>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 149 insertions(+)
+ create mode 100644 css/progress.css
+
+shivam@shivam-lapppppy MINGW64 ~/Desktop/Task/TM (NEW_BRANCH_NAME)
+$ git status
+On branch NEW_BRANCH_NAME
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   css/sb-admin.css
+
+
+ 1 file changed, 169 insertions(+)
+ create mode 100644 Progress.html
+
+shivam@shivam-lapppppy MINGW64 ~/Desktop/Task/TM (NEW_BRANCH_NAME)
+$ git status
+On branch NEW_BRANCH_NAME
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   css/sb-admin.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        css/progress.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+shivam@shivam-lapppppy MINGW64 ~/Desktop/Task/TM (NEW_BRANCH_NAME)
+$ git add css/progress.css
+
+shivam@shivam-lapppppy MINGW64 ~/Desktop/Task/TM (NEW_BRANCH_NAME)
+$ git commit -m "css added"
+[NEW_BRANCH_NAME ad3f367] css added
+ Committer: shiva yadav <shiva yadav>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 149 insertions(+)
+ create mode 100644 css/progress.css
+
+shivam@shivam-lapppppy MINGW64 ~/Desktop/Task/TM (NEW_BRANCH_NAME)
+$ git status
+On branch NEW_BRANCH_NAME
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   css/sb-admin.css
+
+shivam@shivam-lapppppy MINGW64 ~/Desktop/Task/TM (NEW_BRANCH_NAME)
+$ git status
+On branch NEW_BRANCH_NAME
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   css/sb-admin.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        css/progress.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+shivam@shivam-lapppppy MINGW64 ~/Desktop/Task/TM (NEW_BRANCH_NAME)
+$ git add css/progress.css
+
+shivam@shivam-lapppppy MINGW64 ~/Desktop/Task/TM (NEW_BRANCH_NAME)
+$ git commit -m "css added"
+[NEW_BRANCH_NAME ad3f367] css added
+ Committer: shiva yadav <shiva yadav>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 149 insertions(+)
+ create mode 100644 css/progress.css
+
+shivam@shivam-lapppppy MINGW64 ~/Desktop/Task/TM (NEW_BRANCH_NAME)
+$ git status
+On branch NEW_BRANCH_NAME
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   css/sb-admin.css
+
+no changes added to commit (use "git add" and/or "g
+shivam@shivam-lapppppy MINGW64 ~/Desktop/Task/TM (NEW_BRANCH_NAME)
+$ git status
+On branch NEW_BRANCH_NAME
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   css/sb-admin.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+shivam@shivam-lapppppy MINGW64 ~/Desktop/Task/TM (NEW_BRANCH_NAME)
+$ git commit -m "admin css change" css/sb-admin.css
+warning: LF will be replaced by CRLF in css/sb-admin.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/sb-admin.css.
+The file will have its original line endings in your working directory.
+[NEW_BRANCH_NAME 22a1f8e] admin css change
+ Committer: shiva yadav <shiva yadav>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+shivam@shivam-lapppppy MINGW64 ~/Desktop/Task/TM (NEW_BRANCH_NAME)
+$ git push origin NEW_BRANCH_NAME
