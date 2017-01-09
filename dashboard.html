@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta charset="utf-8" />
+		<title>Dashoard</title>
+
+		<meta name="description" content="Draggabble Widget Boxes with Persistent Position and State" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+		<!-- bootstrap & fontawesome -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="assets/css/ace.min.css" class="ace-main-stylesheet" id="main-ace-style" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/dashboard.css" />
+		<script src="assets/js/ace-extra.min.js"></script>
+	</head>
+	<body class="no-skin">
+		<div id="navbar" class="navbar navbar-default ace-save-state">
+			<div class="navbar-container ace-save-state" id="navbar-container">
+				<button type="button" class="navbar-toggle menu-toggler pull-left" id="menu-toggler" data-target="#sidebar">
+					<span class="sr-only">Toggle sidebar</span>
+
+					<span class="icon-bar"></span>
+
+					<span class="icon-bar"></span>
+
+					<span class="icon-bar"></span>
+				</button>
+
+				<div class="navbar-header pull-left">
+					<a href="index.html" class="navbar-brand">
+						<div class="row">TRANSLATION</div>
+						<div class="row">MANAGER</div>	
+					</a>
+				</div>
+
+				<div class="navbar-buttons navbar-header pull-right" role="navigation">
+					<ul class="nav ace-nav">
+						 <li><a href="#">Sync</a></li>
+						 <li><a href="#">Reports</a></li>
+  	    <li><a href="#">Setting</a></li>
+  	    <li><a href="#">Package Manager</a></li> 
+  	    <li class="li-text-align"><a href="#">Online<i class="fa fa-large fa-user-circle-o"></i></a></li>
+						</ul>
+				</div>
+			</div><!-- /.navbar-container -->
+		</div>
+		<div class="main-container ace-save-state" id="main-container">
+			<div id="sidebar" class="sidebar  responsive  ace-save-state">
+				<ul class="nav nav-list">
+          <li><a href="#"><i class="menu-icon fa fa-large fa-user-plus"></i>ASSIGNMENTS </a></li>
+          <li> <a href="#"><i class="menu-icon fa fa-large fa-bar-chart"></i>PROGRESS</a></li>
+          <li><a href="#"><i class="menu-icon fa fa-large fa-users"></i>TEAM</a></li>
+				</ul><!-- /.nav-list -->
+
+				<div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
+					<i id="sidebar-toggle-icon" class="ace-icon fa fa-angle-double-left ace-save-state" data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"></i>
+				</div>
+			</div>
+
+			<div class="main-content">
+				<div class="main-content-inner">	
+					<div class="page-content">
+						<div class="row row-spacing">
+							<div class=" col-lg-12">
+				        <span class="span-text-font">View Project Progress</span>
+				        <span class="span-align-center">Language:English</span>       
+				        <span class="span-align"><i class="fa fa-small fa-circle"></i>Assigned</span>
+				        <span class="span-align-right"><i class="fa-small-color fa fa-circle"></i>Completed</span>
+				      </div>
+				      </div>
+				      <div class="row row-spacing">
+								<div class=" col-lg-12">TEAM</div>
+							</div>
+									<div class="row row-spacing">								
+										<div class="col-xs-12 col-sm-12 widget-container-col" id="widget-container-col-2">
+											<div class="widget-box widget-color-blue" id="widget-box-2">
+												<div class="widget-body">
+													<div class="widget-main no-padding">
+														<table class="table table-striped table-bordered table-hover">
+															<thead class="thin-border-bottom">
+																<tr>
+																	<th class="head-text-align">
+																		User
+																	</th>
+																	<th class="head-text-align">
+																		STAGE1
+																	</th>
+																	<th class="head-text-align">STAGE2</th>
+																	<th class="head-text-align">STAGE3</th>
+																</tr>
+															</thead>
+
+															<tbody>
+																 <tr>
+                    <!--table-data-->
+                      <td class="td-width">
+                      <!--data of unit-->
+                      	<p class="td-text-align">genesis<span class="badge">50</span></p>	
+											</td>
+                      <!--table-data-->
+                      <td>
+                      <!--progressbar-->
+                      	<div class="progress progress-bar-color">
+													<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+														<span class="sr-only">70% Complete</span>
+													</div>
+												</div>
+                      </td>
+                      <td>
+                      <!--progressbar-->
+                    	  <div class="progress">
+													<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+														<span class="sr-only">70% Complete</span>
+													</div>
+												</div>
+                      </td>
+                      <!--table-data-->
+                      <td>
+                      	<div class="progress">
+													<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+														<span class="sr-only">70% Complete</span>
+													</div>
+												</div>
+                      </td>
+                    </tr>
+                    <tr>
+                    <!--table-data-->
+                      <td>
+                      <!--data of unit-->
+                      		<p class="td-text-align">exodus<span class="badge">50</span></p>	
+                      </td>
+                      <td>
+                      <!--progressbar-->
+                      	<div class="progress">
+  												<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+  													<span class="sr-only">70% Complete</span>
+  												</div>
+  											</div>
+                      </td>
+                      <!--table-data-->
+                      <td>
+                      <!--progressbar-->
+                      	<div class="progress">
+  												<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+  													<span class="sr-only">70% Complete</span>
+  												</div>
+  											</div>
+                      </td>
+                      <!--table-data-->
+                      <td>
+                      <!--progressbar-->
+                      	<div class="progress">
+  												<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+  													<span class="sr-only">70% Complete</span>
+  												</div>
+  											</div>
+                      </td>
+                    </tr>   	
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div><!-- /.span -->
+		</div>
+
+							
+				</div>
+			</div>
+
+
+		<!-- basic scripts -->
+
+		<!--[if !IE]> -->
+		<script src="assets/js/jquery-2.1.4.min.js"></script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+<script src="assets/js/jquery-1.11.3.min.js"></script>
+<![endif]-->
+		
+		<script src="assets/js/bootstrap.min.js"></script>
+
+		<!-- page specific plugin scripts -->
+		<script src="assets/js/jquery-ui.custom.min.js"></script>
+		<script src="assets/js/jquery.ui.touch-punch.min.js"></script>
+
+		<!-- ace scripts -->
+		<script src="assets/js/ace-elements.min.js"></script>
+		<script src="assets/js/ace.min.js"></script>
+
+		<!-- inline scripts related to this page -->
+		<script type="text/javascript">
+			jQuery(function($) {
+			
+				$('#simple-colorpicker-1').ace_colorpicker({pull_right:true}).on('change', function(){
+					var color_class = $(this).find('option:selected').data('class');
+					var new_class = 'widget-box';
+					if(color_class != 'default')  new_class += ' widget-color-'+color_class;
+					$(this).closest('.widget-box').attr('class', new_class);
+				});
+			
+			
+				// scrollables
+				$('.scrollable').each(function () {
+					var $this = $(this);
+					$(this).ace_scroll({
+						size: $this.attr('data-size') || 100,
+						//styleClass: 'scroll-left scroll-margin scroll-thin scroll-dark scroll-light no-track scroll-visible'
+					});
+				});
+				$('.scrollable-horizontal').each(function () {
+					var $this = $(this);
+					$(this).ace_scroll(
+					  {
+						horizontal: true,
+						styleClass: 'scroll-top',//show the scrollbars on top(default is bottom)
+						size: $this.attr('data-size') || 500,
+						mouseWheelLock: true
+					  }
+					).css({'padding-top': 12});
+				});
+				
+				$(window).on('resize.scroll_reset', function() {
+					$('.scrollable-horizontal').ace_scroll('reset');
+				});
+			
+				
+				$('#id-checkbox-vertical').prop('checked', false).on('click', function() {
+					$('#widget-toolbox-1').toggleClass('toolbox-vertical')
+					.find('.btn-group').toggleClass('btn-group-vertical')
+					.filter(':first').toggleClass('hidden')
+					.parent().toggleClass('btn-toolbar')
+				});
+			
+				/**
+				//or use slimScroll plugin
+				$('.slim-scrollable').each(function () {
+					var $this = $(this);
+					$this.slimScroll({
+						height: $this.data('height') || 100,
+						railVisible:true
+					});
+				});
+				*/
+				
+			
+				/**$('.widget-box').on('setting.ace.widget' , function(e) {
+					e.preventDefault();
+				});*/
+			
+				/**
+				$('.widget-box').on('show.ace.widget', function(e) {
+					//e.preventDefault();
+					//this = the widget-box
+				});
+				$('.widget-box').on('reload.ace.widget', function(e) {
+					//this = the widget-box
+				});
+				*/
+			
+				//$('#my-widget-box').widget_box('hide');
+			
+				
+			
+				// widget boxes
+				// widget box drag & drop example
+			    $('.widget-container-col').sortable({
+			        connectWith: '.widget-container-col',
+					items:'> .widget-box',
+					handle: ace.vars['touch'] ? '.widget-title' : false,
+					cancel: '.fullscreen',
+					opacity:0.8,
+					revert:true,
+					forceHelperSize:true,
+					placeholder: 'widget-placeholder',
+					forcePlaceholderSize:true,
+					tolerance:'pointer',
+					start: function(event, ui) {
+						//when an element is moved, it's parent becomes empty with almost zero height.
+						//we set a min-height for it to be large enough so that later we can easily drop elements back onto it
+						ui.item.parent().css({'min-height':ui.item.height()})
+						//ui.sender.css({'min-height':ui.item.height() , 'background-color' : '#F5F5F5'})
+					},
+					update: function(event, ui) {
+						ui.item.parent({'min-height':''})
+						//p.style.removeProperty('background-color');
+			
+						
+						//save widget positions
+						var widget_order = {}
+						$('.widget-container-col').each(function() {
+							var container_id = $(this).attr('id');
+							widget_order[container_id] = []
+							
+							
+							$(this).find('> .widget-box').each(function() {
+								var widget_id = $(this).attr('id');
+								widget_order[container_id].push(widget_id);
+								//now we know each container contains which widgets
+							});
+						});
+						
+						ace.data.set('demo', 'widget-order', widget_order, null, true);
+					}
+			    });
+				
+				
+				///////////////////////
+			
+				//when a widget is shown/hidden/closed, we save its state for later retrieval
+				$(document).on('shown.ace.widget hidden.ace.widget closed.ace.widget', '.widget-box', function(event) {
+					var widgets = ace.data.get('demo', 'widget-state', true);
+					if(widgets == null) widgets = {}
+			
+					var id = $(this).attr('id');
+					widgets[id] = event.type;
+					ace.data.set('demo', 'widget-state', widgets, null, true);
+				});
+			
+			
+				(function() {
+					//restore widget order
+					var container_list = ace.data.get('demo', 'widget-order', true);
+					if(container_list) {
+						for(var container_id in container_list) if(container_list.hasOwnProperty(container_id)) {
+			
+							var widgets_inside_container = container_list[container_id];
+							if(widgets_inside_container.length == 0) continue;
+							
+							for(var i = 0; i < widgets_inside_container.length; i++) {
+								var widget = widgets_inside_container[i];
+								$('#'+widget).appendTo('#'+container_id);
+							}
+			
+						}
+					}
+					
+					
+					//restore widget state
+					var widgets = ace.data.get('demo', 'widget-state', true);
+					if(widgets != null) {
+						for(var id in widgets) if(widgets.hasOwnProperty(id)) {
+							var state = widgets[id];
+							var widget = $('#'+id);
+							if
+							(
+								(state == 'shown' && widget.hasClass('collapsed'))
+								||
+								(state == 'hidden' && !widget.hasClass('collapsed'))
+							) 
+							{
+								widget.widget_box('toggleFast');
+							}
+							else if(state == 'closed') {
+								widget.widget_box('closeFast');
+							}
+						}
+					}
+					
+					
+					$('#main-widget-container').removeClass('invisible');
+					
+					
+					//reset saved positions and states
+					$('#reset-widgets').on('click', function() {
+						ace.data.remove('demo', 'widget-state');
+						ace.data.remove('demo', 'widget-order');
+						document.location.reload();
+					});
+				
+				})();
+			
+			});
+		</script>
+	</body>
+</html>
